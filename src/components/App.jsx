@@ -1,8 +1,7 @@
 import { lazy, Suspense } from 'react';
 import { Route, Routes } from 'react-router-dom';
 import { ToastContainer } from 'react-toastify';
-// import 'react-toastify/dist/ReactToastify.css';
-import { GlobalStyle } from './GlobalStyle';
+import 'react-toastify/dist/ReactToastify.css';
 import Spinner from './Spinner/Spinner';
 import Cast from './Cast/Cast';
 import Reviews from './Reviews/Reviews';
@@ -16,7 +15,6 @@ const NotFoundPage = lazy(() => import('pages/NotFoundPage'));
 export const App = () => {
   return (
     <>
-      <GlobalStyle />
       <Suspense fallback={<Spinner />}>
         <Routes>
           <Route path="/" element={<AppBar />}>

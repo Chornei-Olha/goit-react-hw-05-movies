@@ -1,4 +1,4 @@
-import { ErrorLink, ErrorText } from 'components/NotFoundPage/NotFoundPage';
+import { ErrorLink, ErrorText } from 'NotFoundPage';
 
 export default function NotFoundPage(params) {
   return (

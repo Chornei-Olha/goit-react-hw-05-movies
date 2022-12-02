@@ -8,9 +8,9 @@ import Reviews from './Reviews/Reviews';
 
 const AppBar = lazy(() => import('./AppBar/AppBar'));
 const HomePage = lazy(() => import('pages/HomePage'));
-const MoviesDetailsPage = lazy(() => import('pages/MovieDetailsPage'));
-const MoviesPage = lazy(() => import('pages/MoviesPage'));
-const NotFoundPage = lazy(() => import('pages/NotFoundPage'));
+const MoviesDetailsPage = lazy(() => import('pages/MovieDetailsPage/MovieDetailsPage'));
+const MoviesPage = lazy(() => import('pages/MoviesPage/MoviesPage'));
+const NotFoundPage = lazy(() => import('pages/NotFoundPage/NotFoundPage'));
 
 export const App = () => {
   return (

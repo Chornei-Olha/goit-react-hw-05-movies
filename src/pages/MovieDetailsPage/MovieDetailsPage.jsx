@@ -9,7 +9,7 @@ import {
     InformationItem,
     GoBackButton,
     ArrowLeft,
-  } from 'components/MovieDetailsPage/MovieDetailsPage.styled';
+  } from './MovieDetailsPage.styled';
   import { useEffect, useState } from 'react';
   import {
     Link,

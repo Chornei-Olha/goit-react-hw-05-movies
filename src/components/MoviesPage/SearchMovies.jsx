@@ -2,7 +2,7 @@ import { MoviesList } from 'components/MovieList/MovieList';
 import { useEffect, useState } from 'react';
 import { useLocation, useSearchParams } from 'react-router-dom';
 import { fetchSearchMovies } from 'services/servicesApi';
-import { Button, Form, Input } from './MoviesPage.styled';
+import { Button, Form, Input } from '../../pages/MoviesPage/MoviesPage.styled';
 
 export default function SearchMovies() {
   const [query, setQuery] = useState('');
